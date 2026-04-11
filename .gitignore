@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+._*
+
+# Build artifacts — uploaded to Releases, not committed
+*.dmg
+*.zip
+*.blockmap
+*.AppImage
+*.exe
+dist/
+out/
+
+# Editor
+.vscode/
+.idea/
