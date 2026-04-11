@@ -20,7 +20,7 @@ Universal binary — runs natively on both Apple Silicon and Intel Macs.
 
 GitHub automatically attaches "Source code (zip)" and "Source code (tar.gz)" links to every release — there's no way to disable them. On this repository, those archives contain **only this repo's `.gitignore` file** (around 530 bytes). They do **not** contain the Anjadhe application source, which lives in a separate private repository and is never published here.
 
-In short: those links exist, but they're empty placeholders, not a source leak.
+In short: those links exist, but they're empty placeholders.
 
 ## Reporting issues
 
@@ -30,4 +30,4 @@ For product questions and general information, see [anjadhe.com](https://anjadhe
 
 ## License
 
-The Anjadhe desktop app is distributed as a compiled binary. Source code is not publicly available.
+The Anjadhe desktop app is distributed as a compiled binary. Source code is not publicly available as of now. But it is in our roadmap to make the source code public.
