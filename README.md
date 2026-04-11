@@ -14,7 +14,7 @@ Direct download (always points to the newest build):
 https://github.com/ram-bakthavachalam-754/anjadhe-releases/releases/latest/download/Anjadhe.dmg
 ```
 
-Universal binary — runs natively on both Apple Silicon and Intel Macs. Signed with a Developer ID Application certificate and notarized by Apple, so it opens cleanly with no Gatekeeper warnings on modern macOS.
+Universal binary — runs natively on both Apple Silicon and Intel Macs.
 
 ## About the auto-attached "Source code" archives
 
