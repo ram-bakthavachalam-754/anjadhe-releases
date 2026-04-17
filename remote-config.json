@@ -2,12 +2,6 @@
   "configVersion": 1,
   "lastUpdated": "2026-04-17",
 
-  "app": {
-    "latestVersion": "0.1.0-alpha.2",
-    "releaseNotes": "",
-    "downloadUrl": "https://github.com/ram-bakthavachalam-754/anjadhe-releases/releases"
-  },
-
   "ollamaInstall": {
     "macUrl": "https://ollama.com/download/Ollama-darwin.zip",
     "manualPage": "https://ollama.com/download"
