@@ -22,7 +22,5 @@
     { "name": "llama3.1:70b",      "desc": "Meta Llama 3.1 70B -- frontier quality, requires 96 GB+ unified memory","size": "43 GB",  "minRam": 96 }
   ],
 
-  "flags": {},
-
   "announcements": []
 }
