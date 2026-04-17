@@ -1,0 +1,34 @@
+{
+  "configVersion": 1,
+  "lastUpdated": "2026-04-13",
+
+  "app": {
+    "latestVersion": "1.0.0",
+    "releaseNotes": "",
+    "downloadUrl": "https://github.com/ram-bakthavachalam-754/anjadhe-app/releases"
+  },
+
+  "ollamaInstall": {
+    "macUrl": "https://ollama.com/download/Ollama-darwin.zip",
+    "manualPage": "https://ollama.com/download"
+  },
+
+  "models": [
+    { "name": "gemma3:4b",         "desc": "Google Gemma 3 4B -- multimodal (text + image), 128K context",          "size": "3.3 GB", "minRam": 16 },
+    { "name": "llama3.1:8b",       "desc": "Meta Llama 3.1 8B -- reliable tool calling, 128K context",              "size": "4.9 GB", "minRam": 16 },
+    { "name": "qwen3:8b",          "desc": "Alibaba Qwen 3 8B -- newest Qwen, strong reasoning and tools",          "size": "5.2 GB", "minRam": 16 },
+    { "name": "gemma4:e2b",        "desc": "Google Gemma 4 e2b -- 2.3B effective params, smallest Gemma 4",         "size": "7.2 GB", "minRam": 24 },
+    { "name": "qwen2.5:14b",       "desc": "Alibaba Qwen 2.5 14B -- strong general-purpose",                        "size": "9.0 GB", "minRam": 24 },
+    { "name": "gemma4:e4b",        "desc": "Google Gemma 4 e4b -- 4.5B effective params, balanced default",         "size": "9.6 GB", "minRam": 24 },
+    { "name": "mistral-small:24b", "desc": "Mistral Small 24B -- strong tool calling",                              "size": "14 GB",  "minRam": 32 },
+    { "name": "gemma3:27b",        "desc": "Google Gemma 3 27B -- multimodal (text + image), largest Gemma 3",      "size": "17 GB",  "minRam": 32 },
+    { "name": "gemma4:26b",        "desc": "Google Gemma 4 26B -- Mixture-of-Experts (3.8B active params)",         "size": "18 GB",  "minRam": 48 },
+    { "name": "qwen2.5:32b",       "desc": "Alibaba Qwen 2.5 32B -- top-tier quality",                              "size": "20 GB",  "minRam": 48 },
+    { "name": "gemma4:31b",        "desc": "Google Gemma 4 31B -- dense frontier model",                            "size": "20 GB",  "minRam": 48 },
+    { "name": "llama3.1:70b",      "desc": "Meta Llama 3.1 70B -- frontier quality, requires 96 GB+ unified memory","size": "43 GB",  "minRam": 96 }
+  ],
+
+  "flags": {},
+
+  "announcements": []
+}
