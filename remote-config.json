@@ -1,31 +1,19 @@
 {
   "configVersion": 1,
-  "lastUpdated": "2026-04-17",
+  "lastUpdated": "2026-05-18",
 
   "ollamaInstall": {
     "macUrl": "https://ollama.com/download/Ollama-darwin.zip",
     "manualPage": "https://ollama.com/download"
   },
 
-  "mlxModels": [
-    { "name": "mlx-community/Llama-3.2-1B-Instruct-4bit",            "desc": "Meta Llama 3.2 1B -- smallest tool-calling model, very fast",            "size": "0.8 GB", "minRam": 8 },
-    { "name": "mlx-community/Llama-3.2-3B-Instruct-4bit",            "desc": "Meta Llama 3.2 3B -- balanced default for tool calling",                 "size": "2.0 GB", "minRam": 8 },
-    { "name": "mlx-community/Qwen2.5-3B-Instruct-4bit",              "desc": "Alibaba Qwen 2.5 3B -- strong reasoning at small size",                  "size": "2.0 GB", "minRam": 8 },
-    { "name": "mlx-community/Mistral-7B-Instruct-v0.3-4bit",         "desc": "Mistral 7B Instruct v0.3 -- best tool-call discipline on MLX runtime",   "size": "4.1 GB", "minRam": 16, "recommended": true },
-    { "name": "mlx-community/Qwen2.5-7B-Instruct-4bit",              "desc": "Alibaba Qwen 2.5 7B -- strong general chat, limited tool support on MLX","size": "4.4 GB", "minRam": 16 },
-    { "name": "mlx-community/Llama-3.1-8B-Instruct-4bit",            "desc": "Meta Llama 3.1 8B -- chat only on MLX (tool calls degraded)",            "size": "4.9 GB", "minRam": 16 },
-    { "name": "mlx-community/gemma-3n-E4B-it-4bit",                  "desc": "Google Gemma 3n E4B -- multimodal (text+image), Apple-Silicon native",   "size": "4.8 GB", "minRam": 16 },
-    { "name": "mlx-community/Mistral-Small-24B-Instruct-2501-4bit",  "desc": "Mistral Small 24B -- frontier tool calling",                             "size": "14 GB",  "minRam": 32 },
-    { "name": "mlx-community/Qwen2.5-32B-Instruct-4bit",             "desc": "Alibaba Qwen 2.5 32B -- top-tier general-purpose",                       "size": "18 GB",  "minRam": 48 }
-  ],
-
   "models": [
     { "name": "gemma3:4b",         "desc": "Google Gemma 3 4B -- multimodal (text + image), 128K context",          "size": "3.3 GB", "minRam": 16 },
     { "name": "llama3.1:8b",       "desc": "Meta Llama 3.1 8B -- reliable tool calling, 128K context",              "size": "4.9 GB", "minRam": 16 },
     { "name": "qwen3:8b",          "desc": "Alibaba Qwen 3 8B -- newest Qwen, strong reasoning and tools",          "size": "5.2 GB", "minRam": 16 },
-    { "name": "gemma4:e2b",        "desc": "Google Gemma 4 e2b -- 2.3B effective params, smallest Gemma 4",         "size": "7.2 GB", "minRam": 24 },
+    { "name": "gemma4:e2b",        "desc": "Google Gemma 4 e2b -- 2.3B effective params, smallest Gemma 4",         "size": "7.2 GB", "minRam": 16 },
     { "name": "qwen2.5:14b",       "desc": "Alibaba Qwen 2.5 14B -- strong general-purpose",                        "size": "9.0 GB", "minRam": 24 },
-    { "name": "gemma4:e4b",        "desc": "Google Gemma 4 e4b -- 4.5B effective params, balanced default",         "size": "9.6 GB", "minRam": 24 },
+    { "name": "gemma4:e4b",        "desc": "Google Gemma 4 e4b -- 4.5B effective params, balanced default",         "size": "9.6 GB", "minRam": 16 },
     { "name": "mistral-small:24b", "desc": "Mistral Small 24B -- strong tool calling",                              "size": "14 GB",  "minRam": 32 },
     { "name": "gemma3:27b",        "desc": "Google Gemma 3 27B -- multimodal (text + image), largest Gemma 3",      "size": "17 GB",  "minRam": 32 },
     { "name": "gemma4:26b",        "desc": "Google Gemma 4 26B -- Mixture-of-Experts (3.8B active params)",         "size": "18 GB",  "minRam": 48 },
