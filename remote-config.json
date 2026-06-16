@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "lastUpdated": "2026-05-18",
+  "lastUpdated": "2026-06-16",
 
   "ollamaInstall": {
     "macUrl": "https://ollama.com/download/Ollama-darwin.zip",
@@ -8,16 +8,16 @@
   },
 
   "models": [
-    { "name": "llama3.1:8b",       "desc": "Meta Llama 3.1 8B: reliable tool calling, 128K context",              "size": "4.9 GB", "minRam": 16 },
-    { "name": "qwen3:8b",          "desc": "Alibaba Qwen 3 8B: newest Qwen, strong reasoning and tools",          "size": "5.2 GB", "minRam": 16 },
-    { "name": "gemma4:e2b",        "desc": "Google Gemma 4 e2b: 2.3B effective params, smallest Gemma 4",         "size": "7.2 GB", "minRam": 16 },
-    { "name": "qwen2.5:14b",       "desc": "Alibaba Qwen 2.5 14B: strong general-purpose",                        "size": "9.0 GB", "minRam": 24 },
-    { "name": "gemma4:e4b",        "desc": "Google Gemma 4 e4b: 4.5B effective params, balanced default",         "size": "9.6 GB", "minRam": 16 },
-    { "name": "mistral-small:24b", "desc": "Mistral Small 24B: strong tool calling",                              "size": "14 GB",  "minRam": 32 },
-    { "name": "gemma4:26b",        "desc": "Google Gemma 4 26B: Mixture-of-Experts (3.8B active params)",         "size": "18 GB",  "minRam": 48 },
-    { "name": "qwen2.5:32b",       "desc": "Alibaba Qwen 2.5 32B: top-tier quality",                              "size": "20 GB",  "minRam": 48 },
-    { "name": "gemma4:31b",        "desc": "Google Gemma 4 31B: dense frontier model",                            "size": "20 GB",  "minRam": 48 },
-    { "name": "llama3.1:70b",      "desc": "Meta Llama 3.1 70B: frontier quality, requires 96 GB+ unified memory","size": "43 GB",  "minRam": 96 }
+    { "name": "llama3.1:8b",       "desc": "Meta Llama 3.1 8B: reliable tool calling, 128K context",              "size": "4.9 GB", "minRam": 16, "license": "Llama 3.1 Community License",    "licenseUrl": "https://www.llama.com/llama3_1/license/" },
+    { "name": "qwen3:8b",          "desc": "Alibaba Qwen 3 8B: newest Qwen, strong reasoning and tools",          "size": "5.2 GB", "minRam": 16, "license": "Apache 2.0",                     "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0" },
+    { "name": "gemma4:e2b",        "desc": "Google Gemma 4 e2b: 2.3B effective params, smallest Gemma 4",         "size": "7.2 GB", "minRam": 16, "license": "Gemma Terms of Use",             "licenseUrl": "https://ai.google.dev/gemma/terms" },
+    { "name": "qwen2.5:14b",       "desc": "Alibaba Qwen 2.5 14B: strong general-purpose",                        "size": "9.0 GB", "minRam": 24, "license": "Apache 2.0",                     "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0" },
+    { "name": "gemma4:e4b",        "desc": "Google Gemma 4 e4b: 4.5B effective params, balanced default",         "size": "9.6 GB", "minRam": 16, "license": "Gemma Terms of Use",             "licenseUrl": "https://ai.google.dev/gemma/terms" },
+    { "name": "mistral-small:24b", "desc": "Mistral Small 24B: strong tool calling",                              "size": "14 GB",  "minRam": 32, "license": "Apache 2.0",                     "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0" },
+    { "name": "gemma4:26b",        "desc": "Google Gemma 4 26B: Mixture-of-Experts (3.8B active params)",         "size": "18 GB",  "minRam": 48, "license": "Gemma Terms of Use",             "licenseUrl": "https://ai.google.dev/gemma/terms" },
+    { "name": "qwen2.5:32b",       "desc": "Alibaba Qwen 2.5 32B: top-tier quality",                              "size": "20 GB",  "minRam": 48, "license": "Apache 2.0",                     "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0" },
+    { "name": "gemma4:31b",        "desc": "Google Gemma 4 31B: dense frontier model",                            "size": "20 GB",  "minRam": 48, "license": "Gemma Terms of Use",             "licenseUrl": "https://ai.google.dev/gemma/terms" },
+    { "name": "llama3.1:70b",      "desc": "Meta Llama 3.1 70B: frontier quality, requires 96 GB+ unified memory","size": "43 GB",  "minRam": 96, "license": "Llama 3.1 Community License",    "licenseUrl": "https://www.llama.com/llama3_1/license/" }
   ],
 
   "announcements": []
